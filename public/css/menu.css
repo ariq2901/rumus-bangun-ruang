@@ -1,0 +1,100 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  background-color: #ddd;
+  line-height: 1.65;
+}
+
+.container-satu {
+  max-width: 800px;
+  margin: 50px auto;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.container-satu a {
+  color: rgb(20, 20, 20);
+  text-decoration: none;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: .5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  height: 250px;
+  box-shadow: -12px -12px 12px 0 rgba(233, 233, 233, 0.787),
+              12px 12px 12px 0 rgba(0, 0, 0, 0.061);
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgb(20, 20, 20);
+}
+
+.container-satu a:active {
+  border: unset !important;
+  border-radius: .5em;
+  background: #ddd;
+  box-shadow: inset -12px -12px 12px 0 rgba(233, 233, 233, 0.787), 
+              inset 12px 12px 12px 0 rgba(0, 0, 0, 0.061);
+}
+
+.box span {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+input.neu.form-control {
+  border: unset;
+  border-radius: 10px;
+  background: #ddd;
+  box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.061), 
+  inset -3px -3px 7px rgba(233, 233, 233, 0.787);
+}
+
+input.neu.form-control:focus {
+  border: unset;
+  border-radius: 10px;
+  background: #ddd;
+  box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.061), 
+  inset -3px -3px 7px rgba(233, 233, 233, 0.787);
+}
+
+.btn.neu {
+  transition: all .2s ease;
+  letter-spacing: .025em;
+  font-size: 1rem;
+  border: 0.8px solid #b9bbc0 !important;
+  box-shadow: -4px -4px 7px  rgba(233, 233, 233, 0.787),
+              4px 4px 7px  rgba(0, 0, 0, 0.061);
+  border-radius: 10px;
+  background: #ddd;
+}
+
+.btn.neu:active {
+  border: unset !important;
+  box-shadow: inset -4px -4px 7px  rgba(233, 233, 233, 0.787),
+              inset 4px 4px 7px  rgba(0, 0, 0, 0.061);
+}
+
+.flx {
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flx a {
+  height: 45px;
+  width: 80px;
+}
+
+.blue {
+  color: rgb(16, 102, 189);
+}
